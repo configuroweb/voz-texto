@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conversor de Voz a Texto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="shortcut icon" href="./faviconconfiguroweb.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>            
+            <li><a href="https://www.youtube.com/channel/UCVnrMbml3wUIuwz-oSaIUnA">Youtube</a></li>
+            <li><a href="https://github.com/configuroweb">GitHub</a></li>
+            <li><a href="https://www.configuroweb.com/desarrollo/" role="button">ConfiguroWeb</a></li>
+        </ul>
+    </nav>
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Convierte tu voz en texto fácilmente</h2>
+                    <h3>Simple, rápido y efectivo</h3>
+                </hgroup>
+                <div class="button">
+                    <button id="botonInicio"><img src="https://cdn-icons-png.flaticon.com/512/25/25682.png" alt="Iniciar grabación" width="50" height="50"></button>
+                    <small>Toca para Grabar</small>
+                </div>
+                <div id="salida"></div>
+                <div class="buttons">
+                    <button id="botonCopiar">Copiar Texto</button>
+                    <button id="botonLimpiar">Limpiar Texto</button>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="container footer-container">
+        <small>
+            Esta aplicación es uno de mis más de 150 códigos que tengo publicados en mi blog <a href="https://www.configuroweb.com/desarrollo/" target="_blank">configuroweb.com</a>
+        </small>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
